@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# cfdecomp v0.1.0
+# cfdecomp v0.2.0
 
 <!-- badges: start -->
 
@@ -362,4 +362,8 @@ quantile.semipar.results.1 <- cfd.semipar.quantile(formula='out.gauss ~ SES + me
                                            mc.size=50,
                                            alpha=0.05,
                                            probs=0.50)
+                                           
+# for examples of the functions cluster.resample and cluster.id being used in cfd.mean and cfd.quantile
+# please see the help files of those individual functions
+# for an example of cfd.FUN, please see the help file of that individual function.
 ```
